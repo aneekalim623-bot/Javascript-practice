@@ -1,0 +1,13 @@
+let foo = "foo";
+console.log(foo);
+
+function getFullName(firstName, lastName) {
+    console.log(arguments);
+    let myVar = "var inside func";
+    console.log(myVar);
+    let fullName = firstName + " " + lastName;
+    return fullName;
+}
+
+let personName = getFullName("Harshit", "Vashisth");
+console.log(personName);
